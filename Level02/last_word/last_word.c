@@ -5,7 +5,8 @@ int	is_letter(char letter)
 	int	is;
 	
 	is = 0;
-	if ((letter >= 'A' && letter <= 'Z') || (letter >= 'a' && letter <= 'z'))
+//	if ((letter >= 'A' && letter <= 'Z') || (letter >= 'a' && letter <= 'z'))
+	if (letter >= 33 && letter <= 126)
 		is = 1;
 	return (is);
 }
